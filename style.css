@@ -156,6 +156,8 @@ label {
                 margin: 0px;
             } 
             
-             
+             textarea {
+                float: none;
+            }
         }
         
