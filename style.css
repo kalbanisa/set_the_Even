@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+} 
+ 
+ body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+    padding-top: 12px;
+   background: linear-gradient( 0deg,rgb(1, 1, 38),brown );
+     
+ }
+ .main{
+    display: flex;
+    position: relative;
+    margin: 30px;
+ }
+ 
+
+ .content{
+    background: rgb(1, 1, 38);
+   padding: 3rem 3rem; 
+    
+ }
+ .form-img img{
+    min-height: 100%;
+ }
+ h2{
+    text-align: center;
+    color: brown;
+}
+span {
+    margin-left: 5rem;
+}
+select {
+    margin-left: 5rem; 
+   background: rgb(1, 1, 38);
+   color: aliceblue;
+   outline: none;
+   border: none;
+}
+label {
+    width:   100px;
+    display: inline-block;
+    margin: 0.2cm;
+     font-size: 16px;
+     font-weight: bold;
+     color: aliceblue;
+ }
+ 
+ 
+ p{
+    margin: 0.2cm    
+}
+.texte,
+        .selec p{
+            color: aliceblue;
+        }
+        input{
+            padding: 4px;
+            margin: 5px;
+            font-size: 16px;   
+            border: none;
+            outline: none;
+            border: 2px solid #fff;
+            color: #fff;
+            border-top:0px;
+            border-left: 0px;
+            border-right: 0px;
+            background: rgb(1, 1, 38);
+            
+        }
+        
+
+        textarea {
+            width:   200px;
+             padding: 4px;
+             margin: 5px;
+            font-size: 16px;   
+            border: none;
+            resize: none;
+            outline: none;
+            border: 2px solid #fff;
+            color: #fff;
+            border-top:0px;
+            border-left: 0px;
+            border-right: 0px;
+            background: rgb(1, 1, 38);   
+            float: right;
+        }
+        button{
+            margin-top: 50px;
+            color: rgb(211, 211, 222);
+            font-size: 20px;
+            padding: 4px;
+            width: 250px;
+            background: linear-gradient( 0deg,rgb(1, 1, 38),brown );
+
+        }
+       .back{
+            background-color: rgba(131, 80, 80, 0.501);
+            margin-top: 355px;
+            margin-left: -289px;
+            height: 100%;
+        }
+        .back p{
+            text-align: center;
+            color: #fff;
+            padding-left:68px;
+            padding-right: 60px;
+            padding-bottom:30px;
+            padding-top:20px;
+        }
+        @media  (max-width:736px) {
+            .login-form .main{
+                flex-direction: column;
+                margin:0;
+        
+            }
+            .login-form form{
+                margin-top: 30px;
+                margin-bottom: 5px;
+                 
+            }
+            .back{
+               margin-top: -150px;
+                margin-left: 20px;
+                width: 50%;
+            }
+            .back p{
+                text-align: center;
+                 padding-left: 0;
+                  padding-top: 0; 
+                padding-right: 0;
+                
+            }
+            .form-img{
+                border-radius: 0;
+                border-bottom-left-radius: 8px;
+                border-top-right-radius: 8px;
+                order: 2px;
+            }
+            .content{
+                 order: 1;
+                 padding: 0;
+                 margin: 0;
+                 width: 78%;
+                 text-align: center;
+            }
+            input{
+                padding: 0px;
+                margin: 0px;
+            } 
+            
+             
+        }
+        
